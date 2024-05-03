@@ -1,0 +1,237 @@
+
+.left-sidber{
+    height: auto;
+}
+
+.table{
+	width: 1000px;
+}
+.table > thead{
+	text-align: center;
+}
+tbody, td, tfoot, th, thead, tr{
+	text-align: center;
+}
+label{
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	margin: 8px 0;
+}
+.h1, h1{
+	font-weight: 500;
+	font-family: revert;
+}
+.form-control{
+	display: block;
+	width: 100%;
+	padding: .400rem .80rem;
+	line-height: 2rem;
+	color: #0000;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+	border: 2px solid #000 ;
+	padding: 10px 0;
+}
+.select2-container--default .select2-selection--multiple{
+	border: 1px solid aliceblue;
+	border-radius: 4px;
+	cursor: text;
+	position: relative;	
+}
+
+/* form design */
+
+/* cv design  start*/
+
+ .container{
+	max-width: 797px;
+	margin: 0 auto;
+	font-family: Arial;
+}
+.form-section .main-col{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000;
+}
+.form-section .main-col .left-col{
+	text-align: left;
+	margin-top: 30px;
+	padding-left: 15px;
+}
+.form-section .main-col .left-col h2{
+	font-size: 29px;
+	font-weight: 600;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: rgb(26, 219, 219);
+}
+.form-section .main-col .left-col p{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 8px;
+	color: #000;
+}
+.form-section .main-col .left-col a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 5px;
+	color: #000;
+}
+.form-section .main-col .right-col{
+	text-align: right;
+}
+.form-section .main-col .right-col img{
+	border: 8px solid gainsboro;
+}
+.objective h2{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-decoration: underline;
+	background-color: #DCDCDC;
+	padding: 3px 0;
+	position: relative;
+}
+.objective p{
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 500;
+}
+.objective b{
+	color:rgb(26, 219, 219);
+	font-weight: 600;
+}
+.objective ul{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.objective ul li{
+	position: relative;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 5px 10px;
+}
+.objective ul li::before{
+	content: '\f00c';
+	position: absolute;
+	font-family: fontawesome;
+	left: -30px;
+}
+.objective ol li {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 5px 0px;
+	padding-left: 10px;
+}
+.objective ol li a{
+	color: #000;
+	font-size: 16px;
+	font-weight: 500;
+}
+.github{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.github h2{
+	font-weight: 600;
+	font-size: 20px;
+}
+.github a{
+	font-size: 16px;
+	font-weight: 500;
+	color: #000;
+}
+.experence h3{
+	font-weight: 600;
+	font-size: 20px;
+}
+.experence span{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+	width: 300px;
+	display: inline-block;
+	color: #000;
+}
+
+.experence span b{
+	color:rgb(26, 219, 219);
+	font-size: 16px;
+	font-weight: 500;
+}
+
+/* Working Experience end */
+
+.table{
+	padding-top: 40px;
+	max-width: 100%;
+}
+.table h2{
+	font-weight: 600;
+	font-size: 20px;
+}
+table, td, th{
+	padding: 10px 5px;
+	border: 1px solid gray;
+	border-collapse: collapse;
+	margin: 0 10px;
+}
+table, th{
+	font-size: 16px;
+	font-weight: 600;
+}
+table, td{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+	margin-right: 0;
+}
+
+/* details section */
+
+.personal-section{
+	padding-bottom: 20px;
+}
+
+.personal-section .details .main-col{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+.personal-section .left-col{
+	padding-left: 10px;
+}
+.personal-section .left-col p{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 15px;
+
+}
+.personal-section .right-col p{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 15px;
+	text-transform: capitalize;
+	font-family: Arial;
+	
+}
+.cap{
+	width: 100%;
+}
+.cap p{
+	font-size: 16px;
+	font-weight: 500;
+	word-spacing: 2px;
+	letter-spacing: .4px;
+}
+h5{
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #000;
+}
+/* cv design  end*/
